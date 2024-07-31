@@ -1,0 +1,137 @@
+.weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 20px;
+    background: linear-gradient(185deg, #00c6ff, #0072ff);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    max-width: 400px;
+    margin: auto;
+    font-family: 'Helvetica Neue', sans-serif;
+    width: 500px;
+}
+h1{
+    text-align: center;
+    margin:auto;
+    /* width: 40%; */
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 40px;
+    /* margin-bottom: 10px; */
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.search {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.search input {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    padding-left: 50px;
+}
+
+.search img {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    cursor: pointer;
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.weathericon {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+.temp-location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.temp {
+    font-size: 64px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.additional-temps {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.place {
+    font-size: 28px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.extra-data {
+    display: flex;
+    justify-content: space-around;
+    width: 200%;
+    padding: 20px 0;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+
+.extra-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.small-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+#date{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: rgb(226, 193, 3);
+}
+
+.sunny {
+    background: linear-gradient(185deg, #837212, #FFA500, #611e05); /* Yellowish to Orange gradient */
+}
+
+.rainy {
+    background: linear-gradient(185deg, #d3d3d3, #808080); /* Grey gradient */
+}
+
+.cloudy {
+    background: linear-gradient(185deg, #00c6ff, #0072ff); /* Blue gradient */
+}
+/* Weather.css */
+.grey-background {
+    background-color: grey !important;
+}
